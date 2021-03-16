@@ -1,0 +1,22 @@
+[{
+  "message": "%s, take off a piece of clothing, or down your drink",
+  "numPlayers": 1
+},{
+  "message": "%s, take off a piece of clothing, or down your drink",
+  "numPlayers": 1
+},{
+  "message": "Everyone remove 1 item of clothing of their choice. If anyone refuses, they must drink for 5 seconds.",
+  "numPlayers": 0
+},{
+  "message": "Everyone remove 1 item of clothing. %s chooses which item. If anyone refuses, everyone must drink.",
+  "numPlayers": 1
+},{
+  "message": "%s and %s must kiss each other. If either refuses, they both drink.",
+  "numPlayers": 2
+},{
+  "message": "%s, take body shot off another player in the room. You choose the player",
+  "numPlayers": 1
+},{
+  "message": "Anyone not wearing one or both of their socks must drink.",
+  "numPlayers": 0
+},]

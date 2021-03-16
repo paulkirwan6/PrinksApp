@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".CategorySelect">
+
+    <TextView
+        android:id="@+id/textViewSelectCategory"
+        android:layout_width="343dp"
+        android:layout_height="112dp"
+        android:layout_marginTop="100dp"
+        android:text="Select your categories. You can select multiple."
+        android:textSize="32dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <RadioGroup
+        android:id="@+id/lengthOfGameGroup"
+        android:layout_width="match_parent"
+        android:layout_height="210sp"
+        app:layout_constraintBottom_toTopOf="@id/categoryGroup"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textViewSelectCategory"
+        android:gravity="center">
+
+        <RadioButton
+            android:id="@+id/radioButtonShort"
+            android:layout_width="wrap_content"
+            android:layout_height="70sp"
+            android:text="Short Game     "
+            android:gravity="center"/>
+
+        <RadioButton
+            android:id="@+id/radioButtonMedium"
+            android:layout_width="wrap_content"
+            android:layout_height="70sp"
+            android:text="Medium Game"
+            android:checked="true"
+            android:gravity="center"/>
+
+        <RadioButton
+            android:id="@+id/radioButtonLong"
+            android:layout_width="wrap_content"
+            android:layout_height="70sp"
+            android:text="Long Game      "
+            android:gravity="center"/>
+    </RadioGroup>
+
+    <com.google.android.material.chip.ChipGroup
+        android:id="@+id/categoryGroup"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:checkedChip="@id/standardChip"
+        app:layout_constraintBottom_toBottomOf="@id/selectCategoryButton"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/lengthOfGameGroup">
+
+        <com.google.android.material.chip.Chip
+            android:id="@+id/standardChip"
+            style="@style/Widget.MaterialComponents.Chip.Choice"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checkable="true"
+            android:text="Standard" />
+
+        <com.google.android.material.chip.Chip
+            android:id="@+id/uwuChip"
+            style="@style/Widget.MaterialComponents.Chip.Choice"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checkable="true"
+            android:text="Uwu" />
+
+        <com.google.android.material.chip.Chip
+            android:id="@+id/kingsChip"
+            style="@style/Widget.MaterialComponents.Chip.Choice"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checkable="true"
+            android:text="Kings" />
+    </com.google.android.material.chip.ChipGroup>
+
+    <Button
+        android:id="@+id/selectCategoryButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Start"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.751"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/categoryGroup"
+        app:layout_constraintVertical_bias="0.502"/>
+
+    <Button
+        android:id="@+id/backFromCategorySelct"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Back"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/selectCategoryButton"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/categoryGroup" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,175 @@
+[{
+    "message": "%s must drink.",
+    "numPlayers": 1
+},{
+    "message": "%s must drink.",
+    "numPlayers": 1
+},{
+    "message": "%s must drink.",
+    "numPlayers": 1
+},{
+    "message": "%s hands out 2 sips.",
+    "numPlayers": 1
+},{
+    "message": "%s hands out 2 sips.",
+    "numPlayers": 1
+},{
+    "message": "%s hands out 2 sips.",
+    "numPlayers": 1
+},{
+    "message": "%s, drink 3 times.",
+    "numPlayers": 1
+},{
+    "message": "%s, drink 3 times.",
+    "numPlayers": 1
+},{
+    "message": "Cian Farry, down your drink.",
+    "numPlayers": 0
+},{
+    "message": "%s and %s pour a shot of your drink into a glass, mix it, and each of you drink half.",
+    "numPlayers": 2
+},{
+    "message": "Last person to touch the floor drinks.",
+    "numPlayers": 0
+},{
+    "message": "Last person to touch %s drinks.",
+    "numPlayers": 1
+},{
+    "message": "Last person to touch %s drinks.",
+    "numPlayers": 1
+},{
+    "message": "Anyone who has eaten during this game must drink.",
+    "numPlayers": 0
+},{
+    "message": "If your drink is mixed then take a drink.",
+    "numPlayers": 0
+},{
+    "message": "Brown eyed players drink.",
+    "numPlayers": 0
+},{
+    "message": "Blue eyed players drink.",
+    "numPlayers": 0
+},{
+    "message": "Green eyed players drink.",
+    "numPlayers": 0
+},{
+    "message": "Players with dyed hair drink.",
+    "numPlayers": 0
+},{
+    "message": "%s chooses a category. Go around the room naming this something from this category. First person to repeat or not think of one must drink.",
+    "numPlayers": 1
+},{
+    "message": "%s bust a rhyme. Go around the room rhyming with this word. First person to repeat or not think of one must drink.",
+    "numPlayers": 1
+},{
+    "message": "Play \"Never Have I ever\". %s starts and  picks the number of fingers you start with up. Put down a finger each time you have done what was said. First person to put down all fingers drinks.",
+    "numPlayers": 1
+},{
+    "message": "%s picks a new rule. Anyone who breaks this rule during the rest of the game must drink",
+    "numPlayers": 1
+},{
+    "message": "%s is the new QuizMaster. If you answer any of their questions you must drink. If you respond to their question with \"Fuck you QuizMaster\", they drink instead.",
+    "numPlayers": 1
+},{
+    "message": "Everyone vote who the most sober player is. They must down their drink.",
+    "numPlayers": 0
+},{
+    "message": "%s, tell a joke. If no one laughs, you must drink. If anyone laughs, everyone must drink.",
+    "numPlayers": 1
+},{
+    "message": "Everyone thank Paul for making such a mind-bogglingly poggers app. Last person to do this drinks.",
+    "numPlayers": 0
+},{
+    "message": "The player showing the most skin must drink.",
+    "numPlayers": 0
+},{
+    "message": "The player wearing the most items of clothing must drink, or take off 1 item until they are wearing less than another player.",
+    "numPlayers": 0
+},{
+    "message": "Any player who has spilt a drink tonight must drink.",
+    "numPlayers": 0
+},{
+    "message": "%s, take off a piece of clothing, or drink",
+    "numPlayers": 1
+},{
+    "message": "%s, take off a piece of clothing, or drink",
+    "numPlayers": 1
+},{
+    "message": "If %s owns a car they take 2 sips, otherwise hand them out",
+    "numPlayers": 1
+},{
+    "message": "%s and %s must swap an item of clothing. %s decides which item. If anyone refuses, they all drink.",
+    "numPlayers": 3
+},{
+    "message": "Oldest in the group drinks",
+    "numPlayers": 0
+},{
+    "message": "Youngest in the group drinks",
+    "numPlayers": 0
+},{
+    "message": "%s, tell us when you last has sex, or drink",
+    "numPlayers": 1
+},{
+    "message": "%s, tell us the last person you kissed, or drink",
+    "numPlayers": 1
+},{
+    "message": "%s, tell us the last person you kissed, or drink",
+    "numPlayers": 1
+},{
+    "message": "If %s has 'done stuff' with anyone in the room, they both drink",
+    "numPlayers": 1
+},{
+    "message": "Last person to have taken a shit gives out 3 sips",
+    "numPlayers": 0
+},{
+    "message": "%s, moan %s's name or take a drink",
+    "numPlayers": 2
+},{
+    "message": "If %s is single (or their partner isn't here), all the single people waterfall. If they are taken, they must do a body shot off their partner.",
+    "numPlayers": 1
+},{
+    "message": "Waterfall! Start with %s and go clockwise.",
+    "numPlayers": 1
+},{
+    "message": "Everyone take a drink.",
+    "numPlayers": 0
+}, {
+    "message": "If you are drinking beer, take a drink.",
+    "numPlayers": 0
+},{
+    "message": "The person with the biggest shoe size drinks.",
+    "numPlayers": 0
+},{
+    "message": "Anyone drinking vodka must drink.",
+    "numPlayers": 0
+},{
+    "message": "%s Heads or tails. If they get it right they give out two sips, otherwise they must drink the two sips.",
+    "numPlayers": 1
+},{
+    "message": "%s, play Fuck, Marry, Kill with the other people in the room. Anyone selected takes a drink.",
+    "numPlayers": 1
+},{
+    "message": "Drink if you've ever had a sexual thought about %s.",
+    "numPlayers": 1
+},{
+    "message": "If %s has had covid-19 drink 2 sips, else give out 3 sips.",
+    "numPlayers": 1
+}, {
+    "message": "%s drinks 2 sips if you are playing this in your house. Give them out if you are not.",
+    "numPlayers": 1
+},{
+    "message": "Take a drink for every sibling you have.",
+    "numPlayers": 0
+},{
+    "message": "Drink for 1 second for every 1st cousin you have.",
+    "numPlayers": 0
+},{
+    "message": "%s, sing the verse of a song, or drink 3 times.",
+    "numPlayers": 1
+},{
+    "message": "Take a drink if you are wearing a hat.",
+    "numPlayers": 1
+},{
+    "message": "%s, what is %s's date of birth? If you get it right, hand out 3 sips, otherwise drink them.",
+    "numPlayers": 2
+}]

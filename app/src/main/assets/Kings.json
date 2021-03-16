@@ -1,0 +1,157 @@
+[{
+  "message": "Ace: Waterfall! Start with %s and go clockwise.",
+  "numPlayers": 1
+},{
+  "message": "Ace: Waterfall! Start with %s and go clockwise.",
+  "numPlayers": 1
+},{
+  "message": "Ace: Waterfall! Start with %s and go clockwise.",
+  "numPlayers": 1
+},{
+  "message": "Ace: Waterfall! Start with %s and go clockwise.",
+  "numPlayers": 1
+},{
+  "message": "2: %s, pick someone to drink.",
+  "numPlayers": 1
+},{
+  "message": "2: %s, pick someone to drink.",
+  "numPlayers": 1
+},{
+  "message": "2: %s, pick someone to drink.",
+  "numPlayers": 1
+},{
+  "message": "2: %s, pick someone to drink.",
+  "numPlayers": 1
+},{
+  "message": "3: %s must drink.",
+  "numPlayers": 1
+},{
+  "message": "3: %s must drink.",
+  "numPlayers": 1
+},{
+  "message": "3: %s must drink.",
+  "numPlayers": 1
+},{
+  "message": "3: %s must drink.",
+  "numPlayers": 1
+},{
+  "message": "4: Last person to touch the floor drinks.",
+  "numPlayers": 0
+},{
+  "message": "4: Last person to touch the floor drinks.",
+  "numPlayers": 0
+},{
+  "message": "4: Last person to touch the floor drinks.",
+  "numPlayers": 0
+},{
+  "message": "4: Last person to touch the floor drinks.",
+  "numPlayers": 0
+},{
+  "message": "5: Guys drink.",
+  "numPlayers": 0
+},{
+  "message": "5: Guys drink.",
+  "numPlayers": 0
+},{
+  "message": "5: Guys drink.",
+  "numPlayers": 0
+},{
+  "message": "5: Guys drink.",
+  "numPlayers": 0
+},{
+  "message": "6: Girls drink.",
+  "numPlayers": 0
+},{
+  "message": "6: Girls drink.",
+  "numPlayers": 0
+},{
+  "message": "6: Girls drink.",
+  "numPlayers": 0
+},{
+  "message": "6: Girls drink.",
+  "numPlayers": 0
+},{
+  "message": "7: Last person to raise their hands drinks.",
+  "numPlayers": 0
+},{
+  "message": "7: Last person to raise their hands drinks.",
+  "numPlayers": 0
+},{
+  "message": "7: Last person to raise their hands drinks.",
+  "numPlayers": 0
+},{
+  "message": "7: Last person to raise their hands drinks.",
+  "numPlayers": 0
+},{
+  "message": "8: %s picks a mate. The mate you must drink whenever you drink for the rest of the game.",
+  "numPlayers": 2
+},{
+  "message": "8: %s picks a mate. The mate you must drink whenever you drink for the rest of the game.",
+  "numPlayers": 2
+},{
+  "message": "8: %s picks a mate. The mate you must drink whenever you drink for the rest of the game.",
+  "numPlayers": 2
+},{
+  "message": "8: %s picks a mate. The mate you must drink whenever you drink for the rest of the game.",
+  "numPlayers": 2
+},{
+  "message": "9: %s bust a rhyme. Go around the room rhyming with this word. First person to repeat or not think of one must drink.",
+  "numPlayers": 1
+},{
+  "message": "9: %s bust a rhyme. Go around the room rhyming with this word. First person to repeat or not think of one must drink.",
+  "numPlayers": 1
+},{
+  "message": "9: %s bust a rhyme. Go around the room rhyming with this word. First person to repeat or not think of one must drink.",
+  "numPlayers": 1
+},{
+  "message": "9: %s bust a rhyme. Go around the room rhyming with this word. First person to repeat or not think of one must drink.",
+  "numPlayers": 1
+},{
+  "message": "10: Men",
+  "numPlayers": 0
+},{
+  "message": "10: %s chooses a category. Go around the room naming this something from this category. First person to repeat or not think of one must drink.",
+  "numPlayers": 1
+},{
+  "message": "10: %s chooses a category. Go around the room naming this something from this category. First person to repeat or not think of one must drink.",
+  "numPlayers": 1
+}, {
+  "message": "10: Play \"Never Have I ever\". %s starts and  picks the number of fingers you start with up. Put down a finger each time you have done what was said. First person to put down all fingers drinks.",
+  "numPlayers": 1
+},{
+  "message": "10: Play \"Never Have I ever\". %s starts and  picks the number of fingers you start with up. Put down a finger each time you have done what was said. First person to put down all fingers drinks.",
+  "numPlayers": 1
+},{
+  "message": "Jack: %s picks a new rule. Anyone who breaks this rule during the rest of the game must drink",
+  "numPlayers": 1
+},{
+  "message": "Jack: %s picks a new rule. Anyone who breaks this rule during the rest of the game must drink",
+  "numPlayers": 1
+},{
+  "message": "Jack: %s picks a new rule. Anyone who breaks this rule during the rest of the game must drink",
+  "numPlayers": 1
+},{
+  "message": "Jack: %s picks a new rule. Anyone who breaks this rule during the rest of the game must drink",
+  "numPlayers": 1
+},{
+  "message": "Queen: %s is the new QuizMaster. If you answer any of their questions you must drink. If you respond to their question with \"Fuck you QuizMaster\", they drink instead.",
+  "numPlayers": 1
+},{
+  "message": "Queen: %s is the new QuizMaster. If you answer any of their questions you must drink. If you respond to their question with \"Fuck you QuizMaster\", they drink instead.",
+  "numPlayers": 1
+},{
+  "message": "Queen: %s is the new QuizMaster. If you answer any of their questions you must drink. If you respond to their question with \"Fuck you QuizMaster\", they drink instead.",
+  "numPlayers": 1
+},{
+  "message": "Queen: %s is the new QuizMaster. If you answer any of their questions you must drink. If you respond to their question with \"Fuck you QuizMaster\", they drink instead.",
+  "numPlayers": 1
+},{
+  "message": "King: %s, pour some of your drink into the King's cup",
+  "numPlayers": 1
+},{
+  "message": "King: %s, pour some of your drink into the King's cup",
+  "numPlayers": 1
+},{
+  "message": "King: %s, pour some of your drink into the King's cup",
+  "numPlayers": 1
+}]
