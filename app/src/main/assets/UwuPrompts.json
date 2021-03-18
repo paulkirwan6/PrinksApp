@@ -19,4 +19,22 @@
 },{
   "message": "Anyone not wearing one or both of their socks must drink.",
   "numPlayers": 0
-},]
+},{
+  "message": "If you would have sex with another player, take a drink.",
+  "numPlayers": 0
+},{
+  "message": "The person to have had sex the most recently, pick someone to drink.",
+  "numPlayers": 0
+},{
+  "message": "%s give %s a lap dance, or both of you drink.",
+  "numPlayers": 2
+},{
+  "message": "%s sensually rub %s's thigh, or both of you drink.",
+  "numPlayers": 2
+},{
+  "message": "%s, seduce a person or object in the room, or drink. Others may rank the performance out of 5, give out as many sips as points you got out of 5",
+  "numPlayers": 1
+},{
+  "message": "%s, you have been hit on by %s. What is your reaction? Both of you must drink.",
+  "numPlayers": 2
+}]

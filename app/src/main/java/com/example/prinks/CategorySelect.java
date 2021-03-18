@@ -1,7 +1,6 @@
 package com.example.prinks;
 
 import androidx.appcompat.app.AppCompatActivity;
-
 import android.content.Intent;
 import android.os.Bundle;
 import android.widget.Button;
@@ -27,13 +26,11 @@ public class CategorySelect extends AppCompatActivity {
         ArrayList<String> players = (ArrayList<String>) getIntent().getSerializableExtra("players");
 
         // Add all json prompts as PromptType objects
-        ArrayList<PromptType> promptTypes = new ArrayList();
+        ArrayList<PromptType> promptTypes = new ArrayList<>();
         promptTypes.add(new PromptType("StandardPrompts.json",false));
+        promptTypes.add(new PromptType("Virtual.json",false));
         promptTypes.add(new PromptType("UwuPrompts.json", false));
         promptTypes.add(new PromptType("Kings.json", false));
-
-
-        gameLengthRadioGroup = findViewById(R.id.lengthOfGameGroup);
 
         categories = findViewById(R.id.categoryGroup);
         next = findViewById(R.id.selectCategoryButton);
@@ -47,6 +44,7 @@ public class CategorySelect extends AppCompatActivity {
             }
 
             // get selected game length from gameLengthRadioGroup
+            gameLengthRadioGroup = findViewById(R.id.lengthOfGameGroup);
             int selectedId = gameLengthRadioGroup.getCheckedRadioButtonId();
             radioButton = findViewById(selectedId);
             CharSequence gameLength = radioButton.getText();

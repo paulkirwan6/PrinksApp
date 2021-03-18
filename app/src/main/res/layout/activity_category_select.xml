@@ -12,7 +12,7 @@
         android:layout_height="112dp"
         android:layout_marginTop="100dp"
         android:text="Select your categories. You can select multiple."
-        android:textSize="32dp"
+        android:textSize="32sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
@@ -20,7 +20,7 @@
     <RadioGroup
         android:id="@+id/lengthOfGameGroup"
         android:layout_width="match_parent"
-        android:layout_height="210sp"
+        android:layout_height="280sp"
         app:layout_constraintBottom_toTopOf="@id/categoryGroup"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
@@ -32,14 +32,14 @@
             android:id="@+id/radioButtonShort"
             android:layout_width="wrap_content"
             android:layout_height="70sp"
-            android:text="Short Game     "
+            android:text="Short Game        "
             android:gravity="center"/>
 
         <RadioButton
             android:id="@+id/radioButtonMedium"
             android:layout_width="wrap_content"
             android:layout_height="70sp"
-            android:text="Medium Game"
+            android:text="Medium Game   "
             android:checked="true"
             android:gravity="center"/>
 
@@ -47,7 +47,14 @@
             android:id="@+id/radioButtonLong"
             android:layout_width="wrap_content"
             android:layout_height="70sp"
-            android:text="Long Game      "
+            android:text="Long Game        "
+            android:gravity="center"/>
+
+        <RadioButton
+            android:id="@+id/radioButtonAll"
+            android:layout_width="wrap_content"
+            android:layout_height="70sp"
+            android:text="Use All Prompts"
             android:gravity="center"/>
     </RadioGroup>
 
@@ -69,6 +76,14 @@
             android:layout_height="wrap_content"
             android:checkable="true"
             android:text="Standard" />
+
+        <com.google.android.material.chip.Chip
+            android:id="@+id/virtualChip"
+            style="@style/Widget.MaterialComponents.Chip.Choice"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checkable="true"
+            android:text="Virtual" />
 
         <com.google.android.material.chip.Chip
             android:id="@+id/uwuChip"

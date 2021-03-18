@@ -5,31 +5,50 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.widget.Button;
 import android.widget.EditText;
+import android.widget.TextView;
 import android.widget.Toast;
 import java.util.ArrayList;
-import java.util.List;
 
 public class SetupPlayers extends AppCompatActivity {
 
-    private final List<EditText> names = new ArrayList<>();
-    private static ArrayList<String> players;
-    private Button button;
+    private EditText editPlayerName;
+    private final ArrayList<String> players = new ArrayList<>();
+    private Button setPlayersButton, addPlayerButton, resetPlayersButton;
+    private TextView addedPlayers;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_setup_players);
 
-        names.add(findViewById(R.id.editTextName));
-        names.add(findViewById(R.id.editTextName2));
-        names.add(findViewById(R.id.editTextName3));
-        names.add(findViewById(R.id.editTextName4));
-        names.add(findViewById(R.id.editTextName5));
-        names.add(findViewById(R.id.editTextName6));
+        editPlayerName = findViewById(R.id.editTextName);
+        addedPlayers = findViewById(R.id.addedPlayersText);
 
-        button = findViewById(R.id.SetupPlayersButton);
-        button.setOnClickListener(v -> {
-            players = createPlayers();
+        // Add a player to the players list from the edit text when "+" is pressed
+        addPlayerButton = findViewById(R.id.addPlayerButton);
+        addPlayerButton.setOnClickListener(v -> {
+            String name = editPlayerName.getText().toString();
+
+            if (name.isEmpty()) {
+                Toast toast = Toast.makeText(getApplicationContext(),
+                        "Enter a player's name before clicking \"+\".",
+                        Toast.LENGTH_SHORT);
+                toast.show();
+            }
+            else {
+                editPlayerName.setText("");
+                players.add(name);
+                String displayText = addedPlayers.getText().toString();
+                if (players.size() < 2)
+                    addedPlayers.setText(String.format("%s%s", displayText, name));
+                else
+                    addedPlayers.setText(String.format("%s, %s", displayText, name));
+            }
+        });
+
+        // Finish setting up players when "next" is pressed
+        setPlayersButton = findViewById(R.id.SetupPlayersButton);
+        setPlayersButton.setOnClickListener(v -> {
             if (players.size() < 2) {
                 Toast toast = Toast.makeText(getApplicationContext(),
                         "Enter at least two players.",
@@ -42,16 +61,12 @@ public class SetupPlayers extends AppCompatActivity {
                 finish();
             }
         });
-    }
 
-    private ArrayList<String> createPlayers() {
-        ArrayList<String> players = new ArrayList<>();
-        for (EditText name : names) {
-            String player = name.getText().toString();
-            if (!player.isEmpty()) {
-                players.add(player);
-            }
-        }
-        return players;
+        // Reset added players when "reset" is pressed
+        resetPlayersButton = findViewById(R.id.resetPlayersButton);
+        resetPlayersButton.setOnClickListener(v -> {
+            players.clear();
+            addedPlayers.setText("Selected Players:\n");
+        });
     }
 }

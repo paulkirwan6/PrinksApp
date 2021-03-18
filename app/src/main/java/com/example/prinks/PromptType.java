@@ -1,7 +1,5 @@
 package com.example.prinks;
 
-import android.os.Parcelable;
-
 import java.io.Serializable;
 
 public class PromptType implements Serializable {
@@ -15,10 +13,6 @@ public class PromptType implements Serializable {
 
     public String getJson() {
         return json;
-    }
-
-    public void setJson(String json) {
-        this.json = json;
     }
 
     public boolean isOn() {

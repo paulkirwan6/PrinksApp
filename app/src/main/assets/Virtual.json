@@ -1,0 +1,157 @@
+[{
+  "message": "The next player who leaves the room must finish their drink before doing so.",
+  "numPlayers": 0
+},{
+  "message": "The next player who leaves the room must finish their drink before doing so.",
+  "numPlayers": 0
+},{
+  "message": "%s play 2 Truths 1 Lie. Everyone else must guess the lie. Every player who guesses wrong must drink. You must drink for every correct guess.",
+  "numPlayers": 1
+},{
+  "message": "%s play 2 Truths 1 Lie. Everyone else must guess the lie. Every player who guesses wrong must drink. You must drink for every correct guess.",
+  "numPlayers": 1
+},{
+  "message": "Everyone take a drink.",
+  "numPlayers": 0
+},{
+  "message": "Everyone take a drink.",
+  "numPlayers": 0
+},{
+  "message": "%s must drink.",
+  "numPlayers": 1
+},{
+  "message": "%s must drink.",
+  "numPlayers": 1
+},{
+  "message": "%s must drink.",
+  "numPlayers": 1
+},{
+  "message": "%s hands out 2 sips.",
+  "numPlayers": 1
+},{
+  "message": "%s hands out 2 sips.",
+  "numPlayers": 1
+},{
+  "message": "%s hands out 2 sips.",
+  "numPlayers": 1
+},{
+  "message": "If your drink is mixed then take a drink.",
+  "numPlayers": 0
+},{
+  "message": "Brown eyed players drink.",
+  "numPlayers": 0
+},{
+  "message": "Blue eyed players drink.",
+  "numPlayers": 0
+},{
+  "message": "Green eyed players drink.",
+  "numPlayers": 0
+},{
+  "message": "Players with dyed hair drink.",
+  "numPlayers": 0
+},{
+  "message": "%s, take a drink without using your hands.",
+  "numPlayers": 1
+},{
+  "message": "Anyone not currently showing their face must drink.",
+  "numPlayers": 0
+},{
+  "message": "%s and %s, react to getting stabbed with a sword. %s decide which is funnier. The loser must drink.",
+  "numPlayers": 3
+},{
+  "message": "%s, what is %s's date of birth? Drink once if you get either the day, month or year wrong. Give out a sip for each of these you get right.",
+  "numPlayers": 2
+},{
+  "message": "%s, state an assumption about %s. If you are wrong you must drink. If you are correct they must drink.",
+  "numPlayers": 2
+},{
+  "message": "Take a shot for each shot of the Covid vaccine you have received. Down your drink if you have received none.",
+  "numPlayers": 0
+},{
+  "message": "%s quote/act out a scene from a movie. The first person to guess correctly gives out a sip. Incorrect guessers take a drink.",
+  "numPlayers": 1
+},{
+  "message": "Play a round of \"Never Have I ever\". %s starts. Drink each time you have done what was said.",
+  "numPlayers": 1
+},{
+  "message": "Play a round of \"Ever Have I ever\". %s starts. Drink each time you have NOT done what was said.",
+  "numPlayers": 1
+},{
+  "message": "%s, moan %s's name, or down your drink.",
+  "numPlayers": 2
+},{
+  "message": "%s, say \"Most Likely to ...\" Everyone type and send a name in the chat at the same time. Everyone drink once per time you were mentioned.",
+  "numPlayers": 1
+},{
+  "message": "Everyone vote the most likely to get pregnant / get someone pregnant. Type and send a name in the chat at the same time. Everyone drink once per time you were mentioned.",
+  "numPlayers": 0
+},{
+  "message": "%s, you must speak as if you're doing ASMR until the game makes you drink again. Each time you speak normally, you must drink.",
+  "numPlayers": 1
+},{
+  "message": "Anyone who has ever kissed %s must drink.",
+  "numPlayers": 1
+},{
+  "message": "The player who has known %s the longest must drink.",
+  "numPlayers": 1
+},{
+  "message": "%s, tell a joke. If no one laughs, you must drink. If anyone laughs, everyone must drink.",
+  "numPlayers": 1
+},{
+  "message": "%s, tell a joke. If no one laughs, you must drink. If anyone laughs, everyone must drink.",
+  "numPlayers": 1
+},{
+  "message": "Take a drink for every sibling you have.",
+  "numPlayers": 0
+},{
+  "message": "Drink for 1 second for every 1st cousin you have.",
+  "numPlayers": 0
+},{
+  "message": "%s, play Fuck, Marry, Kill with the other people in the call. Anyone selected takes a drink.",
+  "numPlayers": 1
+},{
+  "message": "Everyone try to touch their ceiling. If you can't, you must drink.",
+  "numPlayers": 0
+},{
+  "message": "%s, create a rule. Anyone who breaks this rule during the game must drink.",
+  "numPlayers": 1
+},{
+  "message": "Anyone claiming to not be drunk must drink.",
+  "numPlayers": 0
+},{
+  "message": "Everyone vote using chat who the most sober player is. The player with the most votes downs their drink.",
+  "numPlayers": 0
+},{
+  "message": "The next player to check their phone (not including for playing this game) must down their drink.",
+  "numPlayers": 0
+},{
+  "message": "The last person to stand up must drink.",
+  "numPlayers": 0
+},{
+  "message": "Waterfall! Start with %s and go in order of how the players appear in the call.",
+  "numPlayers": 1
+},{
+  "message": "%s, pick a player to drink with you.",
+  "numPlayers": 1
+},{
+  "message": "%s, pick a player to drink with you.",
+  "numPlayers": 1
+},{
+  "message": "Anyone drinking beer must drink.",
+  "numPlayers": 0
+},{
+  "message": "Anyone drinking vodka must drink.",
+  "numPlayers": 0
+},{
+  "message": "Anyone drinking wine must drink.",
+  "numPlayers": 0
+},{
+  "message": "Take a sip for every H1 you got in the leaving cert.",
+  "numPlayers": 0
+},{
+  "message": "%s, impersonate a celebrity or take a sip, the first person to guess the celebrity may hand out a sip",
+  "numPlayers": 1
+},{
+  "message": "%s, impersonate a celebrity or take a sip, the first person to guess the celebrity may hand out a sip",
+  "numPlayers": 1
+}]

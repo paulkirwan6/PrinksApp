@@ -15,7 +15,7 @@ public class PromptBuilder {
 
     public static List<String> buildPrompts(Context context, List<String> players, String gameLength, List<PromptType> promptsOn) {
 
-        List<Prompt> promptList = new ArrayList();
+        List<Prompt> promptList = new ArrayList<>();
         List<String> builtPrompts = new ArrayList<>();
         boolean kingsSelected = false;
 
@@ -44,10 +44,13 @@ public class PromptBuilder {
         // Short, medium or long game
         List<Prompt> gameLengthPromptList;
         if (gameLength.toLowerCase().contains("short")) {
-            gameLengthPromptList = promptList.stream().limit(30).collect(Collectors.toList());
+            gameLengthPromptList = promptList.stream().limit(25).collect(Collectors.toList());
         }
         else if (gameLength.toLowerCase().contains("medium")) {
-            gameLengthPromptList = promptList.stream().limit(52).collect(Collectors.toList());
+            gameLengthPromptList = promptList.stream().limit(50).collect(Collectors.toList());
+        }
+        else if (gameLength.toLowerCase().contains("long")) {
+            gameLengthPromptList = promptList.stream().limit(75).collect(Collectors.toList());
         }
         else { // All prompts
             gameLengthPromptList = promptList;
@@ -67,13 +70,16 @@ public class PromptBuilder {
             if (numPlayers == 1) {
                 String newMessage = String.format(message, randomNames.get(0));
                 builtPrompts.add(newMessage);
-            } else if (numPlayers == 2) {
+            }
+            else if (numPlayers == 2) {
                 String newMessage = String.format(message, randomNames.get(0), randomNames.get(1));
                 builtPrompts.add(newMessage);
-            } else if (numPlayers == 3) {
+            }
+            else if (numPlayers == 3) {
                 String newMessage = String.format(message, randomNames.get(0), randomNames.get(1), randomNames.get(2));
                 builtPrompts.add(newMessage);
-            }else {
+            }
+            else {
                 builtPrompts.add(prompt.getMessage());
             }
         }

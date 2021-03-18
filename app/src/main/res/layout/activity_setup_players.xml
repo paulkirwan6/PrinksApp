@@ -6,77 +6,63 @@
     android:layout_height="match_parent"
     tools:context=".SetupPlayers">
 
+    <TextView
+        android:id="@+id/enterPlayersText"
+        android:layout_width="322dp"
+        android:layout_height="86dp"
+        android:text="Enter the names of the players below:"
+        android:textSize="32sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.359"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.131" />
+
     <EditText
         android:id="@+id/editTextName"
-        android:layout_width="334dp"
-        android:layout_height="56dp"
-        android:layout_marginTop="140dp"
+        android:layout_width="250sp"
+        android:layout_height="60sp"
+        android:layout_marginTop="80sp"
         android:ems="10"
         android:inputType="textPersonName"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.493"
+        app:layout_constraintHorizontal_bias="0.303"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toBottomOf="@id/enterPlayersText" />
 
-    <EditText
-        android:id="@+id/editTextName2"
-        android:layout_width="334dp"
-        android:layout_height="56dp"
-        android:layout_marginTop="40dp"
-        android:ems="10"
-        android:inputType="textPersonName"
-        app:layout_constraintEnd_toEndOf="@+id/editTextName"
+    <TextView
+        android:id="@+id/enterPlayer"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Player:"
+        app:layout_constraintBottom_toTopOf="@+id/editTextName"
+        app:layout_constraintStart_toStartOf="@+id/editTextName" />
+
+    <Button
+        android:id="@+id/addPlayerButton"
+        android:layout_width="60sp"
+        android:layout_height="60sp"
+        android:text="+"
+        android:textSize="32sp"
+        app:layout_constraintBottom_toBottomOf="@+id/editTextName"
+        app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toEndOf="@id/editTextName"
+        app:layout_constraintTop_toTopOf="@+id/editTextName"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <TextView
+        android:id="@+id/addedPlayersText"
+        android:layout_width="310sp"
+        android:layout_height="180sp"
+        android:text="Selected Players:\n"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/addPlayerButton"
         app:layout_constraintStart_toStartOf="@+id/editTextName"
-        app:layout_constraintTop_toBottomOf="@+id/editTextName" />
-
-    <EditText
-        android:id="@+id/editTextName3"
-        android:layout_width="334dp"
-        android:layout_height="56dp"
-        android:layout_marginTop="44dp"
-        android:ems="10"
-        android:inputType="textPersonName"
-        app:layout_constraintEnd_toEndOf="@+id/editTextName2"
-        app:layout_constraintHorizontal_bias="0.0"
-        app:layout_constraintStart_toStartOf="@+id/editTextName2"
-        app:layout_constraintTop_toBottomOf="@+id/editTextName2" />
-
-    <EditText
-        android:id="@+id/editTextName4"
-        android:layout_width="334dp"
-        android:layout_height="56dp"
-        android:layout_marginTop="40dp"
-        android:ems="10"
-        android:inputType="textPersonName"
-        app:layout_constraintEnd_toEndOf="@+id/editTextName3"
-        app:layout_constraintHorizontal_bias="1.0"
-        app:layout_constraintStart_toStartOf="@+id/editTextName3"
-        app:layout_constraintTop_toBottomOf="@+id/editTextName3" />
-
-    <EditText
-        android:id="@+id/editTextName5"
-        android:layout_width="334dp"
-        android:layout_height="56dp"
-        android:layout_marginTop="40dp"
-        android:ems="10"
-        android:inputType="textPersonName"
-        app:layout_constraintEnd_toEndOf="@+id/editTextName4"
-        app:layout_constraintHorizontal_bias="0.0"
-        app:layout_constraintStart_toStartOf="@+id/editTextName4"
-        app:layout_constraintTop_toBottomOf="@+id/editTextName4" />
-
-    <EditText
-        android:id="@+id/editTextName6"
-        android:layout_width="334dp"
-        android:layout_height="56dp"
-        android:layout_marginTop="40dp"
-        android:ems="10"
-        android:inputType="textPersonName"
-        app:layout_constraintEnd_toEndOf="@+id/editTextName5"
-        app:layout_constraintHorizontal_bias="0.0"
-        app:layout_constraintStart_toStartOf="@+id/editTextName5"
-        app:layout_constraintTop_toBottomOf="@+id/editTextName5" />
+        app:layout_constraintTop_toBottomOf="@id/editTextName"
+        app:layout_constraintVertical_bias="0.248" />
 
     <Button
         android:id="@+id/SetupPlayersButton"
@@ -85,71 +71,21 @@
         android:text="Next"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintHorizontal_bias="0.739"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/editTextName6"
-        app:layout_constraintVertical_bias="0.969" />
+        app:layout_constraintTop_toBottomOf="@+id/addedPlayersText"
+        app:layout_constraintVertical_bias="0.742" />
 
-    <TextView
-        android:id="@+id/enterPlayer1"
+    <Button
+        android:id="@+id/resetPlayersButton"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Player 1:"
-        app:layout_constraintBottom_toTopOf="@+id/editTextName"
-        app:layout_constraintStart_toStartOf="@+id/editTextName" />
-
-    <TextView
-        android:id="@+id/enterPlayer2"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Player 2:"
-        app:layout_constraintBottom_toTopOf="@+id/editTextName2"
-        app:layout_constraintStart_toStartOf="@+id/editTextName2" />
-
-    <TextView
-        android:id="@+id/enterPlayer3"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Player 3:"
-        app:layout_constraintBottom_toTopOf="@+id/editTextName3"
-        app:layout_constraintStart_toStartOf="@+id/editTextName3" />
-
-    <TextView
-        android:id="@+id/enterPlayer4"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="4dp"
-        android:text="Player 4:"
-        app:layout_constraintBottom_toTopOf="@+id/editTextName4"
-        app:layout_constraintStart_toStartOf="@+id/editTextName4" />
-
-    <TextView
-        android:id="@+id/enterPlayer5"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="4dp"
-        android:text="Player 5:"
-        app:layout_constraintBottom_toTopOf="@+id/editTextName5"
-        app:layout_constraintStart_toStartOf="@+id/editTextName5" />
-
-    <TextView
-        android:id="@+id/enterPlayer6"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="4dp"
-        android:text="Player 6:"
-        app:layout_constraintBottom_toTopOf="@+id/editTextName6"
-        app:layout_constraintStart_toStartOf="@+id/editTextName6" />
-
-    <TextView
-        android:id="@+id/enterPlayersText"
-        android:layout_width="322dp"
-        android:layout_height="86dp"
-        android:text="Enter the names of the players below:"
-        android:textSize="32sp"
-        app:layout_constraintBottom_toTopOf="@+id/editTextName"
+        android:text="Reset Players"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.255"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toBottomOf="@+id/addedPlayersText"
+        app:layout_constraintVertical_bias="0.744" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
