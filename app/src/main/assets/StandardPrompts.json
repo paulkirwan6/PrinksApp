@@ -214,4 +214,13 @@
 },{
     "message": "%s, impersonate a celebrity or take a sip, first person to guess the celebrity may hand out a sip",
     "numPlayers": 1
+},{
+    "message": "%s and %s, play the fish slap game. Whoever succeeds a slap or block hands out 3 sips",
+    "numPlayers": 2
+},{
+    "message": "%s, describe an animal using only one syllable words. Drink each time you say a multiple syllable word. First to guess it hands out 3 sips. If no one gets it, drink 3 sips",
+    "numPlayers": 1
+},{
+    "message": "%s, impersonate another player until you are called on again. The first person to guess who you are hands out to sips. If nobody guesses it correctly on time, take 2 sips",
+    "numPlayers": 1
 }]
